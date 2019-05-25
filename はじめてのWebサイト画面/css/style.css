@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+/*共通部分--------*/
+html{
+	font-size: 100%;
+}
+body{
+	font-family: "Yu Gothic Medium","游ゴシック　Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+	line-height: 1.7;
+	color: #4f4225;
+	background-color: #f7c465;
+	background-image: linear-gradient(#ff998c,#f7c465);
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+
+/*index.html-----------*/
+/*header */
+
+.main-nav{
+	display: flex;
+	font-size: 1.25rem;
+	margin-top: 34px;
+	list-style-type: none;
+}
+
+.main-nav li{
+	margin-left: 36px;
+}
+
+.main-nav a{
+	color: #4f4225;
+}
+
+.main-nav a:hover{
+	color: #b7891d;
+}
+
+.page-header{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.page-header h1 a{
+	color: #4f4225;
+}
+
+.page-header h1 a:hover{
+	color: #b7891d;
+}
+
+
+/*コンテンツの最大表示幅を設定*/
+.wrapper{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 4%;
+}
+
+
+/*home content*/
+.home-content{
+	text-align:center;
+	margin:10% 0;
+}
+
+.home-content p{
+	font-size: 1.5rem;
+}
+
+.last-paragraph{
+	margin-bottom: 5%;
+}
+
+.button{
+	font-size: 1.3rem;
+	color: #4f4225;
+	border-radius: 5px;
+	border: solid;
+	border-width: thin;
+	border-color: #4f4225;
+	padding: 18px 32px;
+}
+
+.button:hover{
+	color: #b7891d;
+}
+
+
+/*first.html----------*/
+.page-title{
+	text-align: center;
+	margin: 10% 0;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-color:rgb(255, 255, 255,0.5);
+
+}
+
+article{
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+article h3{
+	margin-top: 1.5rem;
+}
+
+article h4{
+	margin-top: 1.25rem;
+}
+
+
+
+/*フッター-------*/
+footer{
+	background-color: #432;
+	text-align: center;
+	padding: 26px 0;
+	margin-top: 20%;
+}
+
+footer p{
+	color: #fff;
+	font-size: 0.875rem;
+}
+
+/*作品----------*/
+
+.novel-main{
+	width: 50%;
+	border-right: solid ;
+	border-right-color: rgb(255, 255, 255,0.5);
+}
+
+.novel-sub{
+	width: 50%;
+	margin-left: 30px;
+}
+
+.novel-contents ul{
+	list-style-type: none;
+}
+
+.novel-contents span{
+	color: rgb(255, 73, 73);
+}
+
+.novel-contents a{
+	color: #482566;
+}
+
+.novel-contents a:hover{
+	color: #b7891d;
+}
+
+.novel-contents{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+
+/*コメント---------*/
+form div{
+	margin-bottom: 16px;
+}
+
+label{
+	display: block;
+}
+
+input[type="text"],
+textarea{
+	background-color: rgba(255,255,255,.3);
+}
+
+input[type="submit"]{
+	padding: 9px 16px;
+	font-size: 1rem;
+}
+
+
+/*モバイル版-----------*/
+@media(max-width: 600px;)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
